@@ -14,8 +14,8 @@ to your plugin.sbt
 
 # How to Use
 
-* Include dust. Note that this is not provided by the sbt plugin. It can be found here: [dust-core-1.2.3.min.js](https://raw.github.com/typesafehub/play-plugins/master/dust/sample/public/javascripts/dust-core-1.2.3.min.js) 
-```<script src="@routes.Assets.at("javascripts/dust-core-1.2.3.min.js")"></script>
+* Include dust. Note that this is not provided by the sbt plugin. It can be found here: [dust-core-2.0.3.min.js](https://raw.github.com/typesafehub/play-plugins/master/dust/sample/public/javascripts/dust-core-1.2.3.min.js)
+```<script src="@routes.Assets.at("javascripts/dust-core-2.0.3.min.js")"></script>
 ```
 
 * Put your dust template .tl files under the ```app/assets``` directory
