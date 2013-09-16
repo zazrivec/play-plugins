@@ -6,7 +6,7 @@ sbtPlugin := true
 
 name := "play-plugins-dust"
 
-version := "1.6"
+version := "1.7"
 
 organization := "com.typesafe"
 

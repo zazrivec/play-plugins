@@ -8,7 +8,7 @@ This plugin provides build time compilation for the LinkedIn fork of [Dust](http
 
 play 2.1:
 
-```addSbtPlugin("com.typesafe" % "play-plugins-dust" % "1.5")```
+```addSbtPlugin("com.typesafe" % "play-plugins-dust" % "1.6")```
 
 to your plugin.sbt
 

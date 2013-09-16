@@ -7,7 +7,7 @@ import org.apache.commons.io.FilenameUtils
 
 object DustPlugin extends Plugin with DustTasks {
   override def projectSettings = Seq(
-    resourceGenerators in Compile <+= DustCompiler
+    resourceGenerators in Compile <+= dustCompiler
   )
   
   val defaultSettings = Seq(
