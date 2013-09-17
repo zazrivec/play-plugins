@@ -4,17 +4,18 @@ This plugin provides build time compilation for the LinkedIn fork of [Dust](http
 
 # How to install
 
-* add 
+* for play 2.1: add
 
-play 2.1:
+```resolvers += "zazrivec-releases" at "http://zazrivec.github.io/maven/releases"
+```
 
-```addSbtPlugin("com.typesafe" % "play-plugins-dust" % "1.6")```
+```addSbtPlugin("com.typesafe" % "play-plugins-dust" % "1.7.1")```
 
 to your plugin.sbt
 
 # How to Use
 
-* Include dust. Note that this is not provided by the sbt plugin. It can be found here: [dust-core-2.0.3.min.js](https://raw.github.com/typesafehub/play-plugins/master/dust/sample/public/javascripts/dust-core-1.2.3.min.js)
+* Include dust. Note that this is not provided by the sbt plugin. It can be found here: [dust-core-2.0.3.min.js](https://raw.github.com/typesafehub/play-plugins/master/dust/sample/public/javascripts/dust-core-2.0.3.min.js)
 ```<script src="@routes.Assets.at("javascripts/dust-core-2.0.3.min.js")"></script>
 ```
 
