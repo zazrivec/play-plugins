@@ -6,10 +6,10 @@ This plugin provides build time compilation for the LinkedIn fork of [Dust](http
 
 * for play 2.1: add
 
-```resolvers += "zazrivec-releases" at "http://zazrivec.github.io/maven/releases"
 ```
-
-```addSbtPlugin("com.typesafe" % "play-plugins-dust" % "1.7.1")```
+resolvers += "zazrivec-releases" at "http://zazrivec.github.io/maven/releases"
+addSbtPlugin("com.typesafe" % "play-plugins-dust" % "1.7.1")
+```
 
 to your plugin.sbt
 
